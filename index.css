@@ -47,11 +47,8 @@ html {
 /* sec2 start */
 .sec2 > * {
   position: relative;
-  height: 100vh;
+  height: 50vh;
   background-color: white;
-}
-.sec2 h2 {
-  text-align: center;
 }
 
 .sec2 img {
@@ -60,6 +57,7 @@ html {
 }
 
 .sec2 h2 {
+  text-align: center;
   /* text-transform: uppercase; */
   white-space: nowrap;
   font-size: 3vw;
@@ -69,13 +67,20 @@ html {
 /* sec3 start */
 .sec3 > * {
   position: relative;
-  height: 100vh;
+  height: 50vh;
   background-color: white;
 }
-
+.sec3 h2 {
+  text-align: left;
+  white-space: nowrap;
+  font-size: 3vw;
+  font-weight: bold;
+  writing-mode: vertical-lr;
+  transform: scale(-1);
+}
 /* sec4 start */
 .sec4 > * {
   position: relative;
-  height: 100vh;
+  height: 50vh;
   background-color: #333;
 }
