@@ -10,7 +10,7 @@ html {
 /* sec1 start */
 .sec1 {
   /* border: 5px solid red; */
-  height: 300vh;
+  height: 100vh;
   background-color: transparent;
   z-index: -1;
 }
@@ -47,21 +47,28 @@ html {
 /* sec2 start */
 .sec2 > * {
   position: relative;
-  height: 50vh;
+  height: 60vh;
   background-color: white;
 }
-
-.sec2 img {
-  width: 100%;
-  top: 100px;
+.insta {
+  height: 100%;
 }
 
-.sec2 h2 {
-  text-align: center;
+.insta img {
+  border: 1px solid red;
+  width: 100%;
+  z-index: 1;
+}
+
+.insta h2 {
+  position: relative;
   /* text-transform: uppercase; */
   white-space: nowrap;
-  font-size: 3vw;
+  font-size: 5vw;
   font-weight: bold;
+  text-align: center;
+  top: 17vh;
+  z-index: 2;
 }
 
 /* sec3 start */
@@ -73,14 +80,33 @@ html {
 .sec3 h2 {
   text-align: left;
   white-space: nowrap;
-  font-size: 3vw;
+  font-size: 5vw;
   font-weight: bold;
   writing-mode: vertical-lr;
   transform: scale(-1);
+  right: -25%;
+  bottom: -40vh;
+}
+
+.slide1 {
+  right: -30%;
 }
 /* sec4 start */
 .sec4 > * {
   position: relative;
   height: 50vh;
   background-color: #333;
+  color: white;
+}
+.sec4 h2 {
+  /* border: 1px solid red; */
+  text-align: center;
+  top: 50vh;
+  right: -70vw;
+  white-space: nowrap;
+  font-size: 2vw;
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  /* transform: scale(-1); */
+  z-index: 9000;
 }
