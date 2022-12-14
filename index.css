@@ -72,12 +72,12 @@ html {
 }
 
 /* sec3 start */
-.sec3 > * {
-  position: relative;
-  height: 50vh;
-  background-color: white;
+.slide1 {
+  border: 5px solid red;
+  width: 50%;
 }
-.sec3 h2 {
+.title2 {
+  border: 1px solid red;
   text-align: left;
   white-space: nowrap;
   font-size: 5vw;
@@ -86,11 +86,9 @@ html {
   transform: scale(-1);
   right: -25%;
   bottom: -40vh;
+  height: 50vh;
 }
 
-.slide1 {
-  right: -30%;
-}
 /* sec4 start */
 .sec4 > * {
   position: relative;
@@ -109,4 +107,10 @@ html {
   writing-mode: vertical-rl;
   /* transform: scale(-1); */
   z-index: 9000;
+}
+
+/* wrap start */
+.wrap {
+  position: relative;
+  background-color: white;
 }
