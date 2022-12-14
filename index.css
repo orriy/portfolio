@@ -7,6 +7,11 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
 /* sec1 start */
 .sec1 {
   /* border: 5px solid red; */
@@ -35,7 +40,7 @@ html {
 .img {
   /* border: 10px solid lightgoldenrodyellow; */
   width: 40vw;
-  height: 60vh;
+  height: 70vh;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -47,7 +52,7 @@ html {
 /* sec2 start */
 .sec2 > * {
   position: relative;
-  height: 60vh;
+  height: 50vh;
   background-color: white;
 }
 .insta {
@@ -55,9 +60,9 @@ html {
 }
 
 .insta img {
-  border: 1px solid red;
+  position: relative;
+  /* border: 1px solid red; */
   width: 100%;
-  z-index: 1;
 }
 
 .insta h2 {
@@ -67,26 +72,82 @@ html {
   font-size: 5vw;
   font-weight: bold;
   text-align: center;
-  top: 17vh;
-  z-index: 2;
+  top: 3vh;
+}
+.intro1 {
+  border: 1px solid red;
+  height: 40%;
+  bottom: 50vh;
+  background-color: transparent;
+  width: 15%;
+  left: 100px;
+}
+.sec2 span {
+  display: block;
+  line-height: 1.5rem;
+}
+.intro2 {
+  border: 1px solid red;
+  height: 40%;
+  bottom: 50vh;
+  background-color: transparent;
+  width: 15%;
+  left: 25%;
+}
+/* sec3 start */
+.sec3 {
+  position: relative;
+  height: 50vh;
 }
 
-/* sec3 start */
 .slide1 {
-  border: 5px solid red;
-  width: 50%;
+  left: -1%;
+  /* border: 5px solid red; */
+  width: 40%;
+  height: 100%;
+}
+.slide1 img {
+  filter: grayscale(0.3);
 }
 .title2 {
-  border: 1px solid red;
-  text-align: left;
+  position: absolute;
+  /* border: 1px solid red; */
   white-space: nowrap;
   font-size: 5vw;
   font-weight: bold;
   writing-mode: vertical-lr;
   transform: scale(-1);
-  right: -25%;
-  bottom: -40vh;
-  height: 50vh;
+  left: 23.5vw;
+  bottom: 10vh;
+  height: 30vh;
+}
+.name {
+  position: absolute;
+  /* border: 1px solid red; */
+  top: 68%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  font-size: 20px;
+}
+.name a {
+  margin: 9rem;
+}
+.btn {
+  position: absolute;
+  top: 75%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  font-size: 20px;
+}
+.btn a {
+  margin: 9rem;
+}
+.pg1 {
+  border: 1px solid blue;
+  top: 70%;
+  height: 2vh;
 }
 
 /* sec4 start */
@@ -96,19 +157,50 @@ html {
   background-color: #333;
   color: white;
 }
-.sec4 h2 {
+.title3 {
   /* border: 1px solid red; */
   text-align: center;
   top: 50vh;
   right: -70vw;
   white-space: nowrap;
-  font-size: 2vw;
+  font-size: 3vw;
   font-weight: bold;
   writing-mode: vertical-rl;
   /* transform: scale(-1); */
   z-index: 9000;
 }
-
+.last_text {
+  /* border: 3px solid blue; */
+  font-size: 20px;
+  line-height: 4rem;
+}
+.send1 {
+  position: absolute;
+  /* border: 1px solid red; */
+  width: 20%;
+  top: 10vh;
+  left: 30%;
+}
+.send1 span {
+  display: block;
+}
+.send2 {
+  position: absolute;
+  /* border: 1px solid red; */
+  width: 20%;
+  top: 20vh;
+  left: 30%;
+}
+.send2 span {
+  display: block;
+}
+.text {
+  position: absolute;
+  /* border: 1px solid red; */
+  width: 40%;
+  top: 30vh;
+  left: 30%;
+}
 /* wrap start */
 .wrap {
   position: relative;
