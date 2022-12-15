@@ -15,7 +15,7 @@ a {
 /* sec1 start */
 .sec1 {
   /* border: 5px solid red; */
-  height: 100vh;
+  height: 200vh;
   background-color: transparent;
   z-index: -1;
 }
@@ -40,7 +40,7 @@ a {
 .img {
   /* border: 10px solid lightgoldenrodyellow; */
   width: 40vw;
-  height: 70vh;
+  height: 30vh;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -74,25 +74,76 @@ a {
   text-align: center;
   top: 3vh;
 }
-.intro1 {
-  border: 1px solid red;
-  height: 40%;
+.wrap2 {
+  /* border: 10px solid lightskyblue; */
+  display: flex;
+  justify-content: space-between;
+  height: 30vh;
+  width: 97.5%;
   bottom: 50vh;
+  left: 38px;
   background-color: transparent;
-  width: 15%;
-  left: 100px;
 }
+
 .sec2 span {
   display: block;
   line-height: 1.5rem;
 }
+.intro1 {
+  position: relative;
+  right: -2%;
+}
+.intro_title1 {
+  position: absolute;
+  background-color: coral;
+  font-size: 30px;
+  font-weight: bold;
+  top: -70px;
+}
 .intro2 {
-  border: 1px solid red;
-  height: 40%;
-  bottom: 50vh;
-  background-color: transparent;
-  width: 15%;
-  left: 25%;
+  position: relative;
+  left: -8%;
+}
+.intro_title2 {
+  position: absolute;
+  background-color: coral;
+  font-size: 30px;
+
+  font-weight: bold;
+  top: -70px;
+}
+.intro3 {
+  position: relative;
+  left: -17%;
+}
+.intro_title3 {
+  position: absolute;
+  background-color: coral;
+  font-size: 30px;
+  font-weight: bold;
+  top: -70px;
+}
+.intro4 {
+  position: relative;
+  left: -16%;
+}
+.intro_title4 {
+  position: absolute;
+  background-color: coral;
+  font-size: 30px;
+  font-weight: bold;
+  top: -70px;
+}
+.intro5 {
+  position: relative;
+  left: -15%;
+}
+.intro_title5 {
+  position: absolute;
+  background-color: coral;
+  font-size: 30px;
+  font-weight: bold;
+  top: -70px;
 }
 /* sec3 start */
 .sec3 {
@@ -145,9 +196,18 @@ a {
   margin: 9rem;
 }
 .pg1 {
+  display: block;
   border: 1px solid blue;
   top: 70%;
   height: 2vh;
+}
+.swiper-pagination-bullet {
+  box-sizing: border-box;
+  border-radius: 0;
+  width: 300px;
+  height: 3px;
+  justify-content: space-between;
+  background-color: white;
 }
 
 /* sec4 start */
