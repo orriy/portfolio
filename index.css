@@ -37,6 +37,7 @@ a {
 .text2 {
   bottom: 0;
 }
+
 .img {
   /* border: 10px solid lightgoldenrodyellow; */
   width: 40vw;
@@ -89,58 +90,79 @@ a {
   display: block;
   line-height: 1.5rem;
 }
+/* sec2_intro1 */
 .intro1 {
   position: relative;
   right: -2%;
 }
 .intro_title1 {
   position: absolute;
-  background-color: coral;
+
   font-size: 30px;
   font-weight: bold;
   top: -70px;
 }
+.career1 {
+  padding-bottom: 1rem;
+}
+.career2 {
+  padding-bottom: 1rem;
+}
+.career3 {
+  padding-bottom: 1rem;
+}
+/* sec2_intro2 */
 .intro2 {
   position: relative;
-  left: -8%;
+  left: -9%;
 }
 .intro_title2 {
   position: absolute;
-  background-color: coral;
   font-size: 30px;
-
   font-weight: bold;
   top: -70px;
 }
+.design {
+  position: relative;
+  /* border: 1px solid red; */
+  margin-top: 3rem;
+  right: -1vh;
+}
+.design a {
+  margin-right: 1rem;
+}
+.git {
+  margin-top: 3rem;
+}
+/* sec2_intro3 */
 .intro3 {
   position: relative;
-  left: -17%;
+  left: -16%;
 }
 .intro_title3 {
   position: absolute;
-  background-color: coral;
   font-size: 30px;
   font-weight: bold;
   top: -70px;
 }
+/* sec2_intro4 */
 .intro4 {
   position: relative;
   left: -16%;
 }
 .intro_title4 {
   position: absolute;
-  background-color: coral;
   font-size: 30px;
   font-weight: bold;
   top: -70px;
 }
+/* sec2_intro5 */
 .intro5 {
   position: relative;
-  left: -15%;
+  left: -16%;
 }
 .intro_title5 {
   position: absolute;
-  background-color: coral;
   font-size: 30px;
   font-weight: bold;
   top: -70px;
@@ -174,30 +196,30 @@ a {
 }
 .name {
   position: absolute;
+
   /* border: 1px solid red; */
   top: 68%;
-  left: 47%;
+  left: 49%;
   transform: translate(-50%, -50%);
   z-index: 999;
-  font-size: 20px;
 }
 .name a {
-  margin: 9rem;
+  margin: 0.25rem;
 }
-.btn {
-  position: absolute;
-  top: 75%;
-  left: 53%;
-  transform: translate(-50%, -50%);
-  z-index: 999;
+.name div {
+  position: relative;
+  /* border: 1px solid red; */
+  display: inline;
+  margin: 3rem;
+  right: -10px;
+  color: white;
+  font-weight: thin;
   font-size: 20px;
-}
-.btn a {
-  margin: 9rem;
+  cursor: pointer;
 }
 .pg1 {
   display: block;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   top: 70%;
   height: 2vh;
 }
