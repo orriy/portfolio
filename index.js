@@ -9,13 +9,13 @@ window.addEventListener("scroll", function () {
 
   const $img = document.querySelector(".img");
   $img.style.cssText = `
-      width :${40 + scrollWidth * 5}vw;
-      height :${30 + scrollWidth * 5}vh
+      width :${60 + scrollWidth * 5}vw;
+      height :${70 + scrollWidth * 5}vh
     `;
 });
 
 var swiper = new Swiper(".slide1", {
-  spaceBetween: 100,
+  // spaceBetween: 40,
   centeredSlides: true,
   autoplay: {
     delay: 3000,

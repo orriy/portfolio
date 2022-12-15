@@ -40,8 +40,8 @@ a {
 
 .img {
   /* border: 10px solid lightgoldenrodyellow; */
-  width: 40vw;
-  height: 30vh;
+  width: 60vw;
+  height: 70vh;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -49,7 +49,23 @@ a {
   background-size: 100vw;
   background-position: center;
 }
-
+.sec1 span {
+  color: white;
+  font-weight: bold;
+  font-size: 2vw;
+}
+.motive1 {
+  /* border: 3px solid red; */
+  top: 50%;
+  right: 55%;
+  transform: translate(-100%, -100%);
+}
+.motive2 {
+  /* border: 3px solid red; */
+  top: 50%;
+  left: 75%;
+  transform: translate(-100%, -100%);
+}
 /* sec2 start */
 .sec2 > * {
   position: relative;
@@ -174,10 +190,10 @@ a {
 }
 
 .slide1 {
-  left: -1%;
+  left: 5%;
   /* border: 5px solid red; */
-  width: 40%;
-  height: 100%;
+  width: 50%;
+  height: 110%;
 }
 .slide1 img {
   filter: grayscale(0.3);
@@ -190,13 +206,12 @@ a {
   font-weight: bold;
   writing-mode: vertical-lr;
   transform: scale(-1);
-  left: 23.5vw;
+  left: 25vw;
   bottom: 10vh;
   height: 30vh;
 }
 .name {
   position: absolute;
-
   /* border: 1px solid red; */
   top: 68%;
   left: 49%;
@@ -210,26 +225,27 @@ a {
   position: relative;
   /* border: 1px solid red; */
   display: inline;
-  margin: 3rem;
-  right: -10px;
+  margin: 2.5rem;
+  right: -40px;
   color: white;
   font-weight: thin;
-  font-size: 20px;
+  font-size: 22px;
   cursor: pointer;
 }
 .pg1 {
-  display: block;
-  /* border: 1px solid blue; */
-  top: 70%;
+  border: 3px solid blue;
+  top: 36%;
   height: 2vh;
+  text-align: start;
+  justify-content: space-between;
 }
+
 .swiper-pagination-bullet {
-  box-sizing: border-box;
   border-radius: 0;
   width: 300px;
   height: 3px;
-  justify-content: space-between;
   background-color: white;
+  padding-right: 5rem !important;
 }
 
 /* sec4 start */
@@ -282,6 +298,14 @@ a {
   width: 40%;
   top: 30vh;
   left: 30%;
+}
+.text span {
+  display: block;
+  line-height: 2rem;
+}
+.anser {
+  position: absolute;
+  left: 15px;
 }
 /* wrap start */
 .wrap {
