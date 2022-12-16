@@ -174,8 +174,12 @@ a {
 /* sec2_intro5 */
 .intro5 {
   position: relative;
-  left: -16%;
+  left: -15%;
   color: #333;
+}
+.intro5 img {
+  /* border: 1px solid red; */
+  width: 110%;
 }
 /* sec3 start */
 .sec3 {
@@ -261,7 +265,7 @@ a {
   position: absolute;
   border-left: thick solid white;
   height: 16%;
-  left: 50%;
+  left: 53%;
   bottom: 100px;
   width: thin;
   z-index: 1000;
@@ -277,6 +281,16 @@ a {
   width: 20%;
   top: 15vh;
   left: 20%;
+}
+.send1_title {
+  /* border: 1px solid red; */
+  background-color: white;
+  color: #333;
+  width: 15%;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10%;
+  text-align: center;
 }
 .send1 span {
   display: block;
@@ -295,6 +309,16 @@ a {
   /* border: 1px solid red; */
   width: 30%;
   padding-top: 1rem;
+}
+.send2_title {
+  /* border: 1px solid red; */
+  background-color: white;
+  color: #333;
+  width: 15%;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10%;
+  text-align: center;
 }
 .text {
   position: absolute;
