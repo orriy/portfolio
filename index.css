@@ -66,6 +66,7 @@ a {
   left: 75%;
   transform: translate(-100%, -100%);
 }
+
 /* sec2 start */
 .sec2 > * {
   position: relative;
@@ -168,8 +169,11 @@ a {
 /* sec2_intro4 */
 .intro4 {
   position: relative;
-  left: -16%;
+  left: -18%;
   color: #333;
+}
+.intro4 span {
+  line-height: 2rem;
 }
 /* sec2_intro5 */
 .intro5 {
