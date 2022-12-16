@@ -107,16 +107,16 @@ a {
   line-height: 1.5rem;
 }
 /* sec2_intro1 */
-.intro1 {
-  position: relative;
-  right: -2%;
-}
-.intro_title1 {
+.intro_title {
   position: absolute;
-
   font-size: 30px;
   font-weight: bold;
   top: -70px;
+}
+.intro1 {
+  position: relative;
+  right: -2%;
+  color: #333;
 }
 .career1 {
   padding-bottom: 1rem;
@@ -130,13 +130,8 @@ a {
 /* sec2_intro2 */
 .intro2 {
   position: relative;
-  left: -9%;
-}
-.intro_title2 {
-  position: absolute;
-  font-size: 30px;
-  font-weight: bold;
-  top: -70px;
+  left: -6%;
+  color: #333;
 }
 .design {
   position: relative;
@@ -153,35 +148,34 @@ a {
 /* sec2_intro3 */
 .intro3 {
   position: relative;
-  left: -16%;
+  left: -9%;
+  color: #333;
 }
-.intro_title3 {
-  position: absolute;
-  font-size: 30px;
+.me1 {
+  margin-bottom: 1rem;
+}
+.me2 {
+  margin-bottom: 1rem;
+}
+.me_title {
+  background-color: #333;
+  color: white;
+  border-radius: 10%;
+  width: 80px;
   font-weight: bold;
-  top: -70px;
+  text-align: center;
 }
 /* sec2_intro4 */
 .intro4 {
   position: relative;
   left: -16%;
-}
-.intro_title4 {
-  position: absolute;
-  font-size: 30px;
-  font-weight: bold;
-  top: -70px;
+  color: #333;
 }
 /* sec2_intro5 */
 .intro5 {
   position: relative;
   left: -16%;
-}
-.intro_title5 {
-  position: absolute;
-  font-size: 30px;
-  font-weight: bold;
-  top: -70px;
+  color: #333;
 }
 /* sec3 start */
 .sec3 {
@@ -190,10 +184,9 @@ a {
 }
 
 .slide1 {
-  left: 5%;
-  /* border: 5px solid red; */
-  width: 50%;
-  height: 110%;
+  /* border: 1px solid lightcoral; */
+  left: 3%;
+  width: 40%;
 }
 .slide1 img {
   filter: grayscale(0.3);
@@ -206,7 +199,7 @@ a {
   font-weight: bold;
   writing-mode: vertical-lr;
   transform: scale(-1);
-  left: 25vw;
+  left: 28vw;
   bottom: 10vh;
   height: 30vh;
 }
@@ -214,7 +207,7 @@ a {
   position: absolute;
   /* border: 1px solid red; */
   top: 68%;
-  left: 49%;
+  left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
 }
@@ -226,18 +219,16 @@ a {
   /* border: 1px solid red; */
   display: inline;
   margin: 2.5rem;
-  right: -40px;
+  right: -10%;
   color: white;
   font-weight: thin;
   font-size: 22px;
   cursor: pointer;
 }
 .pg1 {
-  border: 3px solid blue;
-  top: 36%;
+  /* border: 3px solid blue; */
+  top: 30vh;
   height: 2vh;
-  text-align: start;
-  justify-content: space-between;
 }
 
 .swiper-pagination-bullet {
@@ -245,21 +236,20 @@ a {
   width: 300px;
   height: 3px;
   background-color: white;
-  padding-right: 5rem !important;
 }
 
 /* sec4 start */
 .sec4 > * {
   position: relative;
-  height: 50vh;
+  height: 60vh;
   background-color: #333;
   color: white;
 }
 .title3 {
   /* border: 1px solid red; */
   text-align: center;
-  top: 50vh;
-  right: -70vw;
+  top: 60vh;
+  right: -73vw;
   white-space: nowrap;
   font-size: 3vw;
   font-weight: bold;
@@ -267,17 +257,26 @@ a {
   /* transform: scale(-1); */
   z-index: 9000;
 }
+.v_line {
+  position: absolute;
+  border-left: thick solid white;
+  height: 16%;
+  left: 50%;
+  bottom: 100px;
+  width: thin;
+  z-index: 1000;
+}
 .last_text {
   /* border: 3px solid blue; */
   font-size: 20px;
-  line-height: 4rem;
+  line-height: 2rem;
 }
 .send1 {
   position: absolute;
   /* border: 1px solid red; */
   width: 20%;
-  top: 10vh;
-  left: 30%;
+  top: 15vh;
+  left: 20%;
 }
 .send1 span {
   display: block;
@@ -286,18 +285,23 @@ a {
   position: absolute;
   /* border: 1px solid red; */
   width: 20%;
-  top: 20vh;
-  left: 30%;
+  top: 25vh;
+  left: 20%;
 }
 .send2 span {
   display: block;
+}
+.send2 img {
+  /* border: 1px solid red; */
+  width: 30%;
+  padding-top: 1rem;
 }
 .text {
   position: absolute;
   /* border: 1px solid red; */
   width: 40%;
-  top: 30vh;
-  left: 30%;
+  top: 48vh;
+  left: 20%;
 }
 .text span {
   display: block;
