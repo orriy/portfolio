@@ -12,6 +12,7 @@ a {
   text-decoration: none;
   color: white;
 }
+
 /* sec1 start */
 .sec1 {
   /* border: 5px solid red; */
@@ -69,279 +70,124 @@ a {
 }
 
 /* sec2 start */
-.sec2 > * {
+
+.sec2 {
+  /* border: 1px solid blue; */
   position: relative;
-  height: 50vh;
+  height: 100vh;
   background-color: white;
 }
-.insta {
-  height: 100%;
-}
-
-.insta img {
+.sec2 h2 {
   position: relative;
-  /* border: 1px solid red; */
-  width: 100%;
-}
-
-.insta h2 {
-  position: relative;
-  /* text-transform: uppercase; */
-  white-space: nowrap;
+  text-align: center;
   font-size: 5vw;
-  font-weight: bold;
-  text-align: center;
-  top: 3vh;
 }
-.wrap2 {
-  /* border: 10px solid lightskyblue; */
-  display: flex;
-  justify-content: space-between;
-  height: 30vh;
-  width: 97.5%;
-  bottom: 50vh;
-  left: 38px;
-  background-color: transparent;
+.con1 {
+  position: relative;
+  padding-top: 3rem;
+  font-size: 12px;
+  left: 5%;
+  /* border: 1px solid red; */
+  width: 15%;
+}
+.con1 span {
+  display: block;
+  z-index: 10;
+}
+.con1_txt {
+  position: relative;
+  bottom: 30vh;
+  align-items: center;
+}
+.con1 img {
+  width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-.sec2 span {
-  display: block;
-  line-height: 1.5rem;
+.con2 {
+  position: relative;
+  width: 15%;
+  bottom: 45%;
+  left: 24%;
 }
-/* sec2_intro1 */
-.intro_title {
+.con2 img {
+  width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.icon {
   position: absolute;
-  font-size: 30px;
-  font-weight: bold;
-  top: -70px;
-}
-.intro1 {
-  position: relative;
-  right: -2%;
-  color: #333;
-}
-.career1 {
-  padding-bottom: 1rem;
-}
-.career2 {
-  padding-bottom: 1rem;
-}
-.career3 {
-  padding-bottom: 1rem;
-}
-/* sec2_intro2 */
-.intro2 {
-  position: relative;
-  left: -6%;
-  color: #333;
-}
-.design {
-  position: relative;
   /* border: 1px solid red; */
-  margin-top: 3rem;
-  right: -1vh;
+  bottom: 40%;
 }
-.design a {
-  margin-right: 1rem;
+.icon img {
+  width: 20%;
+  border-radius: 0;
 }
-.git {
-  margin-top: 3rem;
-}
-/* sec2_intro3 */
-.intro3 {
+.con3 {
   position: relative;
-  left: -9%;
-  color: #333;
+  width: 15%;
+  bottom: 75%;
+  left: 42.5%;
 }
-.me1 {
-  margin-bottom: 1rem;
+.con3 img {
+  width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  overflow: hidden;
 }
-.me2 {
-  margin-bottom: 1rem;
+.con3 p {
+  /* border: 1px solid red; */
+  position: relative;
+  bottom: 41vh;
+  padding-bottom: 1rem;
 }
-.me_title {
-  background-color: #333;
-  color: white;
-  border-radius: 10%;
-  width: 80px;
-  font-weight: bold;
+.con3 span {
+  display: block;
+}
+.con3_txt1,
+.con3_txt2,
+.con3_txt3 {
+  font-size: 12px;
   text-align: center;
 }
-/* sec2_intro4 */
-.intro4 {
+.con4 {
   position: relative;
-  left: -18%;
-  color: #333;
+  width: 15%;
+  bottom: 158vh;
+  left: 61%;
+  z-index: 1;
 }
-.intro4 span {
-  line-height: 2rem;
+.con4 img {
+  width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  overflow: hidden;
 }
-/* sec2_intro5 */
-.intro5 {
+.con5 {
   position: relative;
-  left: -15%;
-  color: #333;
+  width: 15%;
+  bottom: 219vh;
+  left: 80%;
+  z-index: 1;
 }
-.intro5 img {
-  /* border: 1px solid red; */
-  width: 110%;
+.con5 img {
+  width: 100%;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.con5 .icon2 {
+  border: 1px solid red;
+  width: 20%;
 }
 /* sec3 start */
 .sec3 {
+  border: 1px solid red;
   position: relative;
-  height: 50vh;
-}
-
-.slide1 {
-  /* border: 1px solid lightcoral; */
-  left: 3%;
-  width: 40%;
-}
-.slide1 img {
-  filter: grayscale(0.3);
-}
-.title2 {
-  position: absolute;
-  /* border: 1px solid red; */
-  white-space: nowrap;
-  font-size: 5vw;
-  font-weight: bold;
-  writing-mode: vertical-lr;
-  transform: scale(-1);
-  left: 28vw;
-  bottom: 10vh;
-  height: 30vh;
-}
-.name {
-  position: absolute;
-  /* border: 1px solid red; */
-  top: 68%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 999;
-}
-.name a {
-  margin: 0.25rem;
-}
-.name div {
-  position: relative;
-  /* border: 1px solid red; */
-  display: inline;
-  margin: 2.5rem;
-  right: -10%;
-  color: white;
-  font-weight: thin;
-  font-size: 22px;
-  cursor: pointer;
-}
-.pg1 {
-  /* border: 3px solid blue; */
-  top: 30vh;
-  height: 2vh;
-}
-
-.swiper-pagination-bullet {
-  border-radius: 0;
-  width: 300px;
-  height: 3px;
-  background-color: white;
-}
-
-/* sec4 start */
-.sec4 > * {
-  position: relative;
-  height: 60vh;
-  background-color: #333;
-  color: white;
-}
-.title3 {
-  /* border: 1px solid red; */
-  text-align: center;
-  top: 60vh;
-  right: -73vw;
-  white-space: nowrap;
-  font-size: 3vw;
-  font-weight: bold;
-  writing-mode: vertical-rl;
-  /* transform: scale(-1); */
-  z-index: 9000;
-}
-.v_line {
-  position: absolute;
-  border-left: thick solid white;
-  height: 16%;
-  left: 53%;
-  bottom: 100px;
-  width: thin;
-  z-index: 1000;
-}
-.last_text {
-  /* border: 3px solid blue; */
-  font-size: 20px;
-  line-height: 2rem;
-}
-.send1 {
-  position: absolute;
-  /* border: 1px solid red; */
-  width: 20%;
-  top: 15vh;
-  left: 20%;
-}
-.send1_title {
-  /* border: 1px solid red; */
-  background-color: white;
-  color: #333;
-  width: 15%;
-  font-size: 24px;
-  font-weight: bold;
-  border-radius: 10%;
-  text-align: center;
-}
-.send1 span {
-  display: block;
-}
-.send2 {
-  position: absolute;
-  /* border: 1px solid red; */
-  width: 20%;
-  top: 25vh;
-  left: 20%;
-}
-.send2 span {
-  display: block;
-}
-.send2 img {
-  /* border: 1px solid red; */
-  width: 30%;
-  padding-top: 1rem;
-}
-.send2_title {
-  /* border: 1px solid red; */
-  background-color: white;
-  color: #333;
-  width: 15%;
-  font-size: 24px;
-  font-weight: bold;
-  border-radius: 10%;
-  text-align: center;
-}
-.text {
-  position: absolute;
-  /* border: 1px solid red; */
-  width: 40%;
-  top: 48vh;
-  left: 20%;
-}
-.text span {
-  display: block;
-  line-height: 2rem;
-}
-.anser {
-  position: absolute;
-  left: 15px;
-}
-/* wrap start */
-.wrap {
-  position: relative;
+  height: 100vh;
   background-color: white;
 }

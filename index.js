@@ -13,16 +13,3 @@ window.addEventListener("scroll", function () {
       height :${70 + scrollWidth * 5}vh
     `;
 });
-
-var swiper = new Swiper(".slide1", {
-  // spaceBetween: 40,
-  centeredSlides: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
-  pagination: {
-    el: ".pg1",
-    clickable: true,
-  },
-});

@@ -3,4 +3,85 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #c28889;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+.img {
+  width: 100%;
+}
+.back img {
+  position: relative;
+  /* border: 1px solid blue; */
+  width: 40px;
+  left: 50px;
+  padding-top: 2rem;
+}
+
+.heading {
+  position: relative;
+  left: 80%;
+  bottom: 30px;
+  font-size: 16px;
+}
+
+.link1 {
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: rgb(0, 0);
+  z-index: 1;
+}
+.link2 {
+  background-color: white;
+  border-radius: 50px;
+}
+
+.sec1 h1 {
+  position: relative;
+  text-align: center;
+}
+
+.tag {
+  margin: 2rem;
+  text-align: center;
+  font-size: 14px;
+}
+
+.sec1 h2 {
+  font-size: 14px;
+  padding-bottom: 1rem;
+}
+.con {
+  position: relative;
+  left: 30%;
+  padding-top: 2rem;
+}
+.text span {
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 1.25rem;
+}
+
+.mockup1 img {
+  position: relative;
+  border: 1px solid red;
+  width: 20%;
+  left: 50%;
+  right: 50%;
+  top: 25vh;
+  transform: translate(-50%, -50%);
+}
+
+.index1 img {
+  position: relative;
+  transform: translate(-50%, -50%);
+  width: 18%;
+  /* left: 30%;\
+  top: 82.2vh;
+  */
 }
