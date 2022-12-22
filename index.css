@@ -316,10 +316,14 @@ a {
 }
 .sec4 img {
   position: relative;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  top: 20%;
+  left: 45%;
+  top: 5vh;
+  transition: all 0.3s ease-in-out;
 }
+.sec4 img:hover {
+  transform: scale(1.3);
+}
+
 .sec4_text {
   position: relative;
   color: white;

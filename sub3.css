@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #9392b3;
+  background-color: #333;
   color: white;
 }
 
@@ -41,7 +41,6 @@ a {
   height: 25px;
   background-color: white;
   border-radius: 50px;
-
   text-align: center;
 }
 .link2 {
@@ -84,7 +83,7 @@ a {
 }
 .color1 {
   position: relative;
-  background-color: #302f70;
+  background-color: #070707;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -94,7 +93,7 @@ a {
 }
 .color2 {
   position: relative;
-  background-color: #414141;
+  background-color: #222222;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -127,5 +126,5 @@ a {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 18%;
-  top: 46vh;
+  top: 23.5vh;
 }
