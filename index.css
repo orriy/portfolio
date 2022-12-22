@@ -76,6 +76,7 @@ a {
   position: relative;
   height: 100vh;
   background-color: white;
+  padding-top: 2rem;
 }
 .sec2 h2 {
   position: relative;
@@ -253,21 +254,53 @@ a {
 }
 /* sec3 start */
 .sec3 {
-  border: 1px solid red;
   position: relative;
-  height: 100vh;
+  height: 150vh;
   background-color: white;
+  padding-top: 20rem;
 }
 
 .sec3 h2 {
   position: relative;
   font-size: 5vw;
-  writing-mode: vertical-rl;
-  left: -2%;
-  top: 30%;
+  /* writing-mode: vertical-rl; */
+  text-align: center;
 }
+
+.slide1 img {
+  position: relative;
+  padding-top: 5rem;
+  width: 50%;
+  height: 20%;
+  left: 25%;
+}
+.slide1 p {
+  position: relative;
+  font-size: 3vh;
+  font-weight: bold;
+  color: white;
+  left: 27%;
+  bottom: 50vh;
+}
+.slide1 a {
+  position: relative;
+  /* border: 1px solid red; */
+  color: #333;
+  bottom: 60vh;
+  left: 70vw;
+}
+
+.swiper-pagination-clickable {
+  padding-top: 2rem;
+}
+.swiper-pagination-bullet {
+  /* border: 1px solid red; */
+  background-color: #333;
+}
+
+/* sec4 start */
 .sec4 {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   position: relative;
   height: 100vh;
   background-color: white;
@@ -275,7 +308,6 @@ a {
 .sec4 h2 {
   position: relative;
   font-size: 5vw;
-  writing-mode: vertical-rl;
-  right: -96%;
-  top: 30%;
+  /* writing-mode: vertical-rl; */
+  text-align: center;
 }
