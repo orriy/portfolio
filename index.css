@@ -90,6 +90,11 @@ a {
   /* border: 1px solid red; */
   width: 15%;
 }
+.con1 p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
 .con1 span {
   display: block;
   z-index: 10;
@@ -97,7 +102,14 @@ a {
 .con1_txt {
   position: relative;
   bottom: 30vh;
-  align-items: center;
+  left: 5%;
+}
+.joongbu {
+  position: relative;
+  padding-bottom: 1rem;
+}
+.enblanc {
+  padding-bottom: 1rem;
 }
 .con1 img {
   width: 100%;
@@ -118,14 +130,39 @@ a {
   border-radius: 20px;
   overflow: hidden;
 }
+.con2 p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
 .icon {
   position: absolute;
   /* border: 1px solid red; */
-  bottom: 40%;
+  bottom: 25%;
+  left: 5%;
 }
+
 .icon img {
   width: 20%;
   border-radius: 0;
+}
+.coding {
+  position: relative;
+  left: 15%;
+}
+.design {
+  position: relative;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  left: 17%;
+  width: 80%;
+}
+.ai {
+  padding: 1rem;
+}
+.git {
+  position: relative;
+  left: 15%;
 }
 .con3 {
   position: relative;
@@ -139,10 +176,15 @@ a {
   border-radius: 20px;
   overflow: hidden;
 }
+.con3_title {
+  font-size: 20px;
+  font-weight: bold;
+  left: 5%;
+}
 .con3 p {
   /* border: 1px solid red; */
   position: relative;
-  bottom: 41vh;
+  bottom: 40vh;
   padding-bottom: 1rem;
 }
 .con3 span {
@@ -151,13 +193,15 @@ a {
 .con3_txt1,
 .con3_txt2,
 .con3_txt3 {
+  position: absolute;
   font-size: 12px;
   text-align: center;
+  /* border: 1px solid red; */
 }
 .con4 {
   position: relative;
   width: 15%;
-  bottom: 158vh;
+  bottom: 157vh;
   left: 61%;
   z-index: 1;
 }
@@ -166,6 +210,21 @@ a {
   background-repeat: no-repeat;
   border-radius: 20px;
   overflow: hidden;
+}
+.con4 p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.con4_txt {
+  position: relative;
+  bottom: 33vh;
+  left: 5%;
+}
+.con4 span {
+  display: block;
+  line-height: 1.5rem;
+  font-size: 12px;
 }
 .con5 {
   position: relative;
@@ -181,8 +240,16 @@ a {
   overflow: hidden;
 }
 .con5 .icon2 {
-  border: 1px solid red;
+  position: relative;
+  /* border: 1px solid red; */
   width: 20%;
+  bottom: 37.5vh;
+  left: 5%;
+}
+.con5 p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 1rem;
 }
 /* sec3 start */
 .sec3 {
@@ -190,4 +257,25 @@ a {
   position: relative;
   height: 100vh;
   background-color: white;
+}
+
+.sec3 h2 {
+  position: relative;
+  font-size: 5vw;
+  writing-mode: vertical-rl;
+  left: -2%;
+  top: 30%;
+}
+.sec4 {
+  border: 1px solid blue;
+  position: relative;
+  height: 100vh;
+  background-color: white;
+}
+.sec4 h2 {
+  position: relative;
+  font-size: 5vw;
+  writing-mode: vertical-rl;
+  right: -96%;
+  top: 30%;
 }
