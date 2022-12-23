@@ -26,3 +26,9 @@ var swiper = new Swiper(".slide1", {
     clickable: true,
   },
 });
+
+// window.addEventListener("scroll", function () {
+//   const scrollTop = document.documentElement.scrollTop;
+// });
+
+AOS.init("fade-down");
