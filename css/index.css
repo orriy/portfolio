@@ -170,7 +170,7 @@ p + p {
 .card-info {
   padding: 20px;
   position: absolute;
-  bottom: 0;
+  height: 100%;
   color: #fff;
   -webkit-transform: translateY(40%);
   transform: translateY(40%);
@@ -219,6 +219,12 @@ p + p {
 }
 .sec2 span {
   display: block;
+  font-size: 12px;
+}
+
+.sec2 content {
+  position: absolute;
+  top: 20%;
 }
 /* sec3 start */
 .sec3 {
@@ -386,6 +392,7 @@ button {
 }
 
 .button:hover {
+  color: white;
 }
 .circle:hover {
   width: 100%;
@@ -397,6 +404,8 @@ button {
 .arrow:hover {
   background-color: white;
   transform: translate(1rem, 0);
+}
+.button-text:hover {
 }
 
 /* sec6 start */
