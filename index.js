@@ -1,3 +1,4 @@
+// banner
 window.addEventListener("scroll", function () {
   const scrollTop = document.documentElement.scrollTop;
 
@@ -14,6 +15,7 @@ window.addEventListener("scroll", function () {
     `;
 });
 
+// sec2
 Vue.config.devtools = true;
 
 Vue.component("card", {
@@ -94,6 +96,7 @@ const app = new Vue({
   el: "#app",
 });
 
+// sec3
 let tabHeader = document.getElementsByClassName("tab-header")[0];
 let tabIndicator = document.getElementsByClassName("tab-indicator")[0];
 let tabBody = document.getElementsByClassName("tab-body")[0];

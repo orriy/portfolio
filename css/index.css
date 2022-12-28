@@ -148,8 +148,6 @@ p + p {
   background-color: #333;
   overflow: hidden;
   border-radius: 10px;
-  /* box-shadow: rgba(0, 0, 0, 0.66) 0 30px 60px 0, inset #333 0 0 0 5px,
-      inset rgba(255, 255, 255, 0.5) 0 0 0 6px; */
   transition: 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
@@ -208,31 +206,33 @@ p + p {
 }
 
 .card-info h1 {
+  border: 1px solid red;
   font-family: "Playfair Display";
   font-size: 36px;
   font-weight: 700;
+  position: fixed;
   text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
 }
-
+.sec2 img {
+  width: 50px;
+  margin-left: 1rem;
+}
+.sec2 span {
+  display: block;
+}
 /* sec3 start */
 .sec3 {
-  /* border: 1px solid blue; */
   height: 100vh;
   background-color: white;
 }
 
 .sec3 h2 {
-  /* border: 1px solid red; */
   font-family: "Raleway";
   font-size: 30px;
   font-weight: 600;
   padding-top: 3rem;
 }
-.sec3 img {
-  position: relative;
-  left: 35%;
-  height: 80%;
-}
+
 .tabs {
   position: absolute;
   top: 350vh;
@@ -287,7 +287,8 @@ p + p {
   top: -200%;
   opacity: 0;
   transform: scale(0.9);
-  transition: opacity 500ms ease-in-out 0ms, transform 500ms ease-in-out 0ms;
+  opacity: 500ms ease-in-out 0ms;
+  transform: 500ms ease-in-out 0ms;
 }
 .tabs .tab-body > div.active {
   top: 0px;
@@ -297,21 +298,107 @@ p + p {
 
 .active p {
   position: absolute;
-  /* border: 1px solid blue; */
   width: 100%;
   top: 12vh;
   padding-top: 1rem;
   text-align: center;
 }
 .active span {
-  /* border: 1px solid red; */
   display: block;
 }
 .active {
-  /* border: 1px solid red; */
   width: 100%;
   text-align: center;
 }
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+  top: 15vh;
+}
+
+.learn-more {
+  width: 12rem;
+  height: auto;
+}
+
+.circle {
+  transition: (all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background-color: #333;
+  border-radius: 1.625rem;
+}
+
+.icon {
+  transition: (all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: white;
+}
+.arrow {
+  transition: (all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
+  left: 0.8rem;
+  width: 1rem;
+  height: 0.125rem;
+  background: none;
+}
+
+.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+.button-text {
+  transition: (all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #333;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button:hover {
+}
+.circle:hover {
+  width: 100%;
+}
+.icon:hover {
+  background-color: white;
+  transform: translate(1rem, 0);
+}
+.arrow:hover {
+  background-color: white;
+  transform: translate(1rem, 0);
+}
+
 /* sec6 start */
 .sec6 {
   height: 100vh;
