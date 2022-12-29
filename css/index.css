@@ -223,9 +223,11 @@ p + p {
   /* border: 1px solid red; */
   top: 4vh;
   width: 100%;
+  padding-bottom: 0.5rem;
 }
 .sec2 strong {
   /* border: 1px solid blue; */
+  font-size: 12px;
   position: relative;
   top: 4vh;
 }
@@ -431,28 +433,54 @@ button {
 
 /* sec6 start */
 .sec6 {
+  /* border: 1px solid red; */
   height: 100vh;
-  background-color: #333;
+  background-color: #d0ccc4;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .sec6 h2 {
-  font-size: 5vw;
-  color: white;
-  padding-bottom: 4rem;
+  position: relative;
+  font-family: "Raleway";
+  font-size: 6vw;
+  font-weight: 600;
+  padding-bottom: 3rem;
+  top: 60vh;
+  color: #333;
 }
 .sec6 img {
+  position: relative;
   transition: all 0.3s ease-in-out;
+  top: -15vh;
 }
 .sec6 img:hover {
   transform: scale(1.2);
 }
-
-.sec6_text {
+.sec6 strong {
+  font-weight: bold;
+}
+.finish {
+  width: 50%;
   position: relative;
-  color: white;
+  font-family: "Raleway";
+  font-size: 1.5vw;
+  color: #333;
+  text-align: left;
+  top: -30%;
+  left: 5%;
+}
+.contact {
+  font-family: "Raleway";
+  position: relative;
+  font-size: 1.5vw;
+  top: -20%;
+}
+.sec6_text {
+  font-family: "Raleway";
+  position: relative;
+  color: #333;
   padding: 2vw 0 10vw 0;
 }
 .sec6 span {
