@@ -206,7 +206,6 @@ p + p {
 }
 
 .card-info h1 {
-  border: 1px solid red;
   font-family: "Playfair Display";
   font-size: 36px;
   font-weight: 700;
@@ -218,18 +217,29 @@ p + p {
   margin-left: 1rem;
 }
 .sec2 span {
+  position: relative;
   display: block;
   font-size: 12px;
+  /* border: 1px solid red; */
+  top: 4vh;
+  width: 100%;
 }
-
-.sec2 content {
-  position: absolute;
-  top: 20%;
+.sec2 strong {
+  /* border: 1px solid blue; */
+  position: relative;
+  top: 4vh;
+}
+.sec2 a {
+  position: relative;
+  display: inline;
+  /* border: 1px solid yellow; */
+  top: 4vh;
 }
 /* sec3 start */
 .sec3 {
   height: 100vh;
   background-color: white;
+  /* border: 1px solid red; */
 }
 
 .sec3 h2 {
@@ -238,11 +248,19 @@ p + p {
   font-weight: 600;
   padding-top: 3rem;
 }
+.title2 {
+  /* border: 1px solid red; */
+  font-family: "Raleway";
+  font-size: 3vw;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 2rem;
+}
 
 .tabs {
   position: absolute;
   top: 350vh;
-  left: 50%;
+  left: 50.5%;
   transform: translate(-50%, -50%);
   width: 700px;
   height: 400px;
@@ -305,7 +323,7 @@ p + p {
 .active p {
   position: absolute;
   width: 100%;
-  top: 12vh;
+  top: 10vh;
   padding-top: 1rem;
   text-align: center;
 }
@@ -316,6 +334,7 @@ p + p {
   width: 100%;
   text-align: center;
 }
+/* button start */
 button {
   position: relative;
   display: inline-block;
@@ -335,7 +354,9 @@ button {
   width: 12rem;
   height: auto;
 }
-
+.learn-more a {
+  text-decoration: none;
+}
 .circle {
   transition: (all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
   position: relative;
