@@ -73,12 +73,13 @@ html {
 }
 .sec2 h2 {
   position: relative;
-  top: 5%;
+  top: 10%;
 }
 #app {
   padding-top: 13%;
 }
 .title {
+  /* border: 1px solid red; */
   font-family: "Raleway";
   font-size: 4vw;
   font-weight: 600;
@@ -100,6 +101,7 @@ p + p {
   flex-wrap: wrap;
   justify-content: center;
   /* border: 5px solid yellow; */
+  height: 50vh;
 }
 
 .card-wrap {
@@ -243,20 +245,18 @@ p + p {
   background-color: white;
   /* border: 1px solid red; */
 }
-
 .sec3 h2 {
   font-family: "Raleway";
-  font-size: 30px;
+  font-size: 1.5vw;
   font-weight: 600;
-  padding-top: 3rem;
+  text-align: center;
+  padding-top: 2rem;
 }
 .title2 {
-  /* border: 1px solid red; */
   font-family: "Raleway";
   font-size: 3vw;
   font-weight: 600;
   text-align: center;
-  padding-top: 2rem;
 }
 
 .tabs {
@@ -331,6 +331,7 @@ p + p {
 }
 .active span {
   display: block;
+  font-size: 14px;
 }
 .active {
   width: 100%;
@@ -447,13 +448,13 @@ button {
   font-size: 6vw;
   font-weight: 600;
   padding-bottom: 3rem;
-  top: 60vh;
+  top: 55vh;
   color: #333;
 }
 .sec6 img {
   position: relative;
   transition: all 0.3s ease-in-out;
-  top: -15vh;
+  top: -20vh;
 }
 .sec6 img:hover {
   transform: scale(1.2);
@@ -475,13 +476,22 @@ button {
   font-family: "Raleway";
   position: relative;
   font-size: 1.5vw;
-  top: -20%;
+  top: -25%;
 }
 .sec6_text {
   font-family: "Raleway";
   position: relative;
   color: #333;
-  padding: 2vw 0 10vw 0;
+  width: 50%;
+  left: 60%;
+  bottom: 35%;
+  text-align: left;
+  width: 30%;
+}
+.last {
+  width: 50%;
+  position: relative;
+  left: 10px;
 }
 .sec6 span {
   display: block;
