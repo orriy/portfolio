@@ -3,33 +3,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: 333;
 }
 
 a {
   text-decoration: none;
-  color: #333;
+  color: white;
 }
-.img {
-  width: 100%;
-}
-.sec1 {
-  height: 130vh;
-}
+
 .back img {
   position: relative;
   /* border: 1px solid blue; */
   width: 40px;
   left: 50px;
   padding-top: 2rem;
-}
-
-.heading {
-  width: 20%;
-  position: relative;
-  left: 80%;
-  bottom: 30px;
-  font-size: 16px;
 }
 
 .link1 {
@@ -52,6 +38,7 @@ a {
 }
 
 .sec1 h1 {
+  font-size: 3vh;
   position: relative;
   text-align: center;
 }
@@ -66,22 +53,14 @@ a {
   font-size: 14px;
   padding-bottom: 1rem;
 }
-.con {
+.sub {
+  border: 1px solid red;
   position: relative;
-  left: 30%;
-  padding-top: 2rem;
-  top: 30px;
   width: 50%;
-}
-.text span {
-  position: relative;
-  display: block;
-  font-size: 14px;
-  line-height: 1.25rem;
 }
 .color1 {
   position: relative;
-  background-color: #8e1a1c;
+  background-color: #302f70;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -91,7 +70,7 @@ a {
 }
 .color2 {
   position: relative;
-  background-color: #3c2415;
+  background-color: #414141;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -101,38 +80,11 @@ a {
 }
 .color3 {
   position: relative;
-  background-color: #d9d9d9;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  left: 62%;
-  transform: translate(-50%, -50%);
-  bottom: 10%;
-}
-.color4 {
-  position: relative;
   background-color: white;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   left: 62%;
   transform: translate(-50%, -50%);
-  bottom: 9%;
-}
-.mockup1 img {
-  position: relative;
-  /* border: 1px solid red; */
-  width: 20%;
-  left: 50%;
-  right: 50%;
-  top: 30vh;
-  transform: translate(-50%, -50%);
-}
-
-.index1 img {
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 18%;
-  top: 16.7vh;
+  bottom: 10%;
 }
